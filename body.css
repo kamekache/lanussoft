@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #5c1e1e;
     padding: 10px 20px;
     flex-wrap: wrap;
 }
@@ -17,6 +17,7 @@ body {
     color: #fff;
     font-size: 24px;
     text-decoration: none;
+    font-family: 'tommy', sans-serif;
 }
 
 .navbar .nav-buttons {
@@ -55,4 +56,11 @@ body {
 
 .content {
     padding: 20px;
+}
+
+@font-face {
+    font-family: 'tommy';
+    src: url('../fonts/tommy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
