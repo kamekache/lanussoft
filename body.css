@@ -17,7 +17,7 @@ body {
     color: #fff;
     font-size: 24px;
     text-decoration: none;
-    font-family: 'tommy', sans-serif;
+    font-family: 'tommy';
 }
 
 .navbar .nav-buttons {
@@ -60,7 +60,6 @@ body {
 
 @font-face {
     font-family: 'tommy';
-    src: url('../fonts/tommy.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: lighter ;
+    src: url("fonts/tommy.otf") format("opentype");
 }
